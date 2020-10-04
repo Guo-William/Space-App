@@ -31,7 +31,7 @@ function App() {
               <div class='image-text-small white-back'>DEBUNKING THE</div>
               <div class='image-text white-back'>MODEL MINORITY MYTH</div>
             </div>
-            <div class='white-back image-blurb'>The notion that Asians are inherently “good at math” is deeply rooted in American culture. From the American education system to Andrew Yang’s presidential campaign slogan to Oscar jabs, Asians have almost always been synonymous with ‘smart’.</div>
+            <div class='white-back image-blurb'>At first glance, Asian-American Pacific Islanders seem to have it real good. They are at the top of their class, financially successful, and dominate top positions in the workplace...or do they?<br /><br />The Model Minority Myth is notorious for reducing the AAPI community to a monolith under the guise of praise. The result puts thousands of underrepresented ethnic groups at a serious disadvantage in their education, careers, and financial literacy — areas where AAPI supposedly excel.</div>
             <div class='white-back image-authors'>A hackathon project by JAWAS</div>
           </div>
         </div>
@@ -57,7 +57,7 @@ function App() {
             <li class='menu-line'><a class='table-of-contents-header' href="#section-5">5. Why is it hard to dispel?</a></li>
             <li class='menu-line'><a class='table-of-contents-items' href="#overestimating">Overestimating racial equality</a></li>
             <li class='menu-line bot-pad'><a class='table-of-contents-items' href="#whole-story">Data doesn’t tell the whole story</a></li>
-            <li class='menu-line bot-pad'><a class='table-of-contents-header' href="#section-6">6. Data deaggregation is key</a></li>
+            <li class='menu-line bot-pad'><a class='table-of-contents-header' href="#section-6">6. Data disaggregation is key</a></li>
             <li class='menu-line bot-pad'><a class='table-of-contents-header' href="#section-7">7. What’s your MMM story?</a></li>
             <li class='menu-line bot-pad'><a class='table-of-contents-header' href="#section-8">8. Resources</a></li>
           </ol>
@@ -71,7 +71,7 @@ function App() {
           </section>
           <section id="overview">
             <div class='section-container-nopad'>
-              <div class='left-pad body-text'>Let’s get our definition of the model minority myth from the people who place it upon Asians: white people.</div>
+              <div class='left-pad body-text'>Let’s get our definition of the model minority myth from the people who historically place it upon Asian-American Pacific Islanders (AAPI): the uninformed majority who use it to draw conclusions at their convenience.</div>
               <div class='top-margin-2 highlight-card'>
                 <div class='quote-body'>
                   “Today, Asian-Americans are among the most prosperous, well-educated, and successful ethnic groups in America. What gives? It couldn’t possibly be that they maintained solid two-parent family structures, had social networks that looked after one another,&nbsp;
@@ -86,6 +86,9 @@ function App() {
                 </div>
               </div>
               <div class='after-highlight-quote'>
+                In addition to pervasive Asian-American Pacific Islander (AAPI) stereotypes, misleading data has created American people who are uninformed and not curious about whether this myth holds up and how it affects the AAPI population.
+              </div>
+              <div class='body-text-smaller top-marg-1'>
                 But it’s not just the majority who have contributed to and believe this myth.&nbsp;
                 <a class='brown-link' target="_blank" href='https://rethinkingschools.org/articles/tiger-moms-and-the-model-minority-myth/'>AAPI are complicit in allowing this stereotype to exist. </a>
                 After all, what could be so bad about being thought of as smart and high-achieving?
@@ -115,7 +118,9 @@ function App() {
                 <div class='pillar-title'><span class='pillar-title-highlight'>Pillar #1: AAPI are inherently smart</span></div>
                 <div class='information-container before-graphic'>
                   <p>The notion that AAPI are inherently “good at math” is deeply rooted in American culture. From the Americaneducation system to Andrew Yang’s presidential campaign slogan to Oscar jabs, AAPI have almost always been synonymous with ‘smart’.</p>
-                  <p>This sort of generalization perpetuates a false narrative by blanketing all AAPI undercircumstances that would allow them to be an academically successful community. In truth, the MMM has negatively impacted students’ academic performance, mental health*, and the mobility of certain ethnic groups**.</p>
+                  <iframe title="Percent High School Completion by Race" aria-label="Bar Chart" id="datawrapper-chart-WCXFQ" src="https://datawrapper.dwcdn.net/WCXFQ/7/" scrolling="no" frameborder="0" style={{ "border": "none", 'margin-bottom': '2em' }} width="600" height="239"></iframe>
+                  <p>This sort of generalization perpetuates a false narrative by blanketing all AAPI undercircumstances that would allow them to be an academically successful community.&nbsp;
+                    <a class='brown-link' target="_blank" href='https://www.researchgate.net/publication/333878732_Impacts_of_the_Model_Minority_Myth_on_Asian_American_Individuals_and_Families_Social_Justice_and_Critical_Race_Feminist_Perspectives'>In truth, the MMM has negatively impacted students’ academic performance, mental health, and the mobility of certain ethnic groups.</a></p>
                   <p>While the AAPI community may seem to academically excel at first glance, a breakdown of individual ethnic groups shows that there is a wide range of performance.</p>
                 </div>
                 <iframe title="% Ethnicity Completion Highschool" aria-label="Bar Chart" id="datawrapper-chart-sXu9z" src="https://datawrapper.dwcdn.net/sXu9z/1/" scrolling="no" frameborder="0" style={{ "border": "none", 'margin-bottom': '4em' }} width="600" height="742"></iframe>
@@ -130,8 +135,9 @@ function App() {
                 <div class='pillar-title'><span class='pillar-title-highlight'>Pillar #2: AAPI are wealthy</span></div>
                 <div class='information-container before-graphic'>
                   <p>AAPI overall have the highest average household incomes compared to those of other racial groups, including Whites.</p>
+                  <iframe title="Median Wage by Race " aria-label="Bar Chart" id="datawrapper-chart-mljqV" src="https://datawrapper.dwcdn.net/mljqV/1/" scrolling="no" frameborder="0" style={{ "border": "none", 'margin-bottom': '2em' }} width="600" height="239"></iframe>
                   <p>When comparing the average household incomes across more general racial groups, it is easy to categorize the AAPI community as financially prosperous. However, by breaking up the AAPI community into more specific ethnicities is it obvious that the data is skewed by the earnings of a few groups.</p>
-                  <p>This is in large part due to the selective migration patterns of Asian Indians and Chinese to the United States, versus the Southeast Asian populations, most of whom had arrived as refugees.</p>
+                  <p><a class='brown-link' target="_blank" href='https://www.washingtonpost.com/news/magazine/wp/2019/03/18/feature/does-affirmative-action-help-or-hurt-asians-who-dont-fit-the-model-minority-stereotype/'>This is in large part due to the selective migration patterns of Asian Indians and Chinese to the United States, versus the Southeast Asian populations, most of whom had arrived as refugees.</a></p>
                 </div>
                 <iframe title="Median Wage per Ethnicity" aria-label="Bar Chart" id="datawrapper-chart-WhvJZ" src="https://datawrapper.dwcdn.net/WhvJZ/2/" scrolling="no" frameborder="0" style={{ "border": "none", 'margin-bottom': '4em' }} width="600" height="742"></iframe>
                 <iframe title="Mean Wage per Ethnicity" aria-label="Bar Chart" id="datawrapper-chart-nj7KE" src="https://datawrapper.dwcdn.net/nj7KE/2/" scrolling="no" frameborder="0" style={{ "border": "none" }} width="600" height="742"></iframe>
@@ -146,7 +152,9 @@ function App() {
                   <p>By extension of their assumed greater intelligence, AAPI are perceived to be more successful in obtaining higher education than their White or POC counterparts. In fact, many AAPI are expected— by their peers, teachers, and family members— to easily gain admission into universities for their efforts.</p>
                   <iframe title="% Ethnicity BS Degree + (Broad)" aria-label="Bar Chart" id="datawrapper-chart-UUVkr" src="https://datawrapper.dwcdn.net/UUVkr/1/" scrolling="no" frameborder="0" style={{ "border": "none", 'margin': '2em 0' }} width="600" height="214"></iframe>
                   <p>Unfortunately, attending university isn’t as promising to AAPI students as one might believe.</p>
-                  <p>Firstly, not all members of the AAPI community do well in school. As mentioned previously, different ethnic groups must overcome specific disadvantages in order to level with their more privileged peers, such as language barriers, financial circumstances, and responsibilities outside of school. Furthermore, not every ethnic group within the AAPI community is given the same amount of attention by educators. The MMM is so pervasive in our education system that teachers will often assume that their AAPI students don’t need help.</p>
+                  <p>
+                    <a class='brown-link' target="_blank" href='https://www.nytimes.com/2019/08/28/magazine/affirmative-action-asian-american-harvard.html'>Firstly, not all members of the AAPI community do well in school. As mentioned previously, different ethnic groups must overcome specific disadvantages in order to level with their more privileged peers, such as language barriers, financial circumstances, and responsibilities outside of school.</a>
+                    &nbsp;Furthermore, not every ethnic group within the AAPI community is given the same amount of attention by educators. The MMM is so pervasive in our education system that teachers will often assume that their AAPI students don’t need help.</p>
                   <p>Secondly, not all members of the AAPI complete their Bachelor’s education— again, due to a number of factors. As can be seen below, there is almost a 60% disparity between the ethnicity with the most university graduations (Taiwanese) and the ethnicity with the least (Bhutanese). This gap widens as the degree becomes more advanced. </p>
                 </div>
                 <iframe title="% Ethnicity BS Degree +" aria-label="Bar Chart" id="datawrapper-chart-LUKms" src="https://datawrapper.dwcdn.net/LUKms/1/" scrolling="no" frameborder="0" style={{ "border": "none", 'margin': '4em 0' }} width="600" height="742"></iframe>
@@ -160,7 +168,9 @@ function App() {
               <div class='section-container bot-pad-4 bot-marg-2'>
                 <div class='pillar-title'><span class='pillar-title-highlight'>Pillar #4: AAPI are more present in STEM and higher earning careers</span></div>
                 <div class='information-container'>
-                  <p>The belief that AAPI are inherently suited for and successful in STEM careers is a common theme in media and political discourse. However, this isn’t true for AAPI people across the board for every STEM related field. For instance, AAPI persons have the highest numbers within the healthcare field as lab technicians (11.8%) and practitioner support technicians (6.9%). However, they are underrepresented in all other occupations within the healthcare field. For example, making up only 3.4% of psychologists and 2.2% of speech–language pathologists.</p>
+                  <p>The belief that AAPI are inherently suited for and successful in STEM careers is a common theme in media and political discourse.&nbsp;
+                    <a class='brown-link' target="_blank" href='https://www.tandfonline.com/doi/full/10.1080/13613324.2017.1377170'>However, this isn’t true for AAPI people across the board for every STEM related field.</a>&nbsp;
+                      For instance, AAPI persons have the highest numbers within the healthcare field as lab technicians (11.8%) and practitioner support technicians (6.9%). However, they are underrepresented in all other occupations within the healthcare field. For example, making up only 3.4% of psychologists and 2.2% of speech–language pathologists.</p>
                   <iframe title="% Ethnicity in STEM Field" aria-label="Bar Chart" id="datawrapper-chart-nEwIM" src="https://datawrapper.dwcdn.net/nEwIM/1/" scrolling="no" frameborder="0" style={{ "border": "none", 'margin': '2em 0' }} width="600" height="742"></iframe>
                   <p class='container-title'>Success doesn’t mean equality</p>
                   <p>
@@ -271,18 +281,12 @@ function App() {
                     tabindex="0"
                     class="carousel__slide">
                     <div class="carousel__snapper">
-                      <a href="#carousel__slide4" class="carousel__prev">Go to last slide</a>
+                      <a href="#carousel__slide6" class="carousel__prev">Go to last slide</a>
                       <a href="#carousel__slide2" class="carousel__next">Go to next slide</a>
                       <div class='story'>
-                        <div class='story-text'>
-                          When I was halfway through the 11th grade, my pre-calculus teacher pulled me out into the hallway. He wanted to talk about my latest test. “You can do better than this,” he said. “I’m so surprised by grades like this from someone like you.”
-                      </div>
-                        <div class='story-text'>
-                          Someone like you? I’d never done particularly well in his class, so the implication of his words churned in my stomach. In that moment, I felt acutely the weight of the dark braid trailing down my back and the glasses slipping down my nose.
-                      </div>
-                        <div class='story-text'>
-                          I knew my performance was being evaluated not against my own earlier work but against the image of the perfect, straight-A, Asian student who lived in my teacher’s mind: the myth of the “model minority.”
-                      </div>
+                        <div class='story-text'>When I was halfway through the 11th grade, my pre-calculus teacher pulled me out into the hallway. He wanted to talk about my latest test. “You can do better than this,” he said. “I’m so surprised by grades like this from someone like you.”</div>
+                        <div class='story-text'>Someone like you? I’d never done particularly well in his class, so the implication of his words churned in my stomach. In that moment, I felt acutely the weight of the dark braid trailing down my back and the glasses slipping down my nose.</div>
+                        <div class='story-text'>I knew my performance was being evaluated not against my own earlier work but against the image of the perfect, straight-A, Asian student who lived in my teacher’s mind: the myth of the “model minority.”</div>
                       </div>
                       <div class='story-source'>– Sarah Soolman-Blackburn, Mixed</div>
                     </div>
@@ -294,9 +298,7 @@ function App() {
                     <a href="#carousel__slide1" class="carousel__prev">Go to previous slide</a>
                     <a href="#carousel__slide3" class="carousel__next">Go to next slide</a>
                     <div class='story'>
-                      <div class='story-text'>
-                        The model minority myth had a negative impact on how I viewed my fellow colleagues, friends, and students as I grew up. Being part of the race called the model minority, I had a sense of superiority even though it doesn't make sense. Due to the myth, it also felt that causasian was the race to try and attain to reach and I was close to it, but can never reach it.
-                    </div>
+                      <div class='story-text'>The model minority myth had a negative impact on how I viewed my fellow colleagues, friends, and students as I grew up. Being part of the race called the model minority, I had a sense of superiority even though it doesn't make sense. Due to the myth, it also felt that causasian was the race to try and attain to reach and I was close to it, but can never reach it.</div>
                     </div>
                     <div class='story-source'>– Luther Y, Chinese</div>
                   </li>
@@ -344,27 +346,6 @@ function App() {
                     <div class='story-source'>– Sandy Saenbounmy, Vietnamese/Thai</div>
                   </li>
                 </ol>
-                {/* <aside class="carousel__navigation">
-                  <ol class="carousel__navigation-list">
-                    <li class="carousel__navigation-item">
-                      <a href="#carousel__slide1"
-                        class="carousel__navigation-button">Go to slide 1</a>
-                    </li>
-                    <li class="carousel__navigation-item">
-                      <a href="#carousel__slide2"
-                        class="carousel__navigation-button">Go to slide 2</a>
-                    </li>
-                    <li class="carousel__navigation-item">
-                      <a href="#carousel__slide3"
-                        class="carousel__navigation-button">Go to slide 3</a>
-                    </li>
-                    <li class="carousel__navigation-item">
-                      <a href="#carousel__slide4"
-                        class="carousel__navigation-button">Go to slide 4</a>
-                    </li>
-                  </ol>
-                </aside> */}
-
               </div>
               <div class='button-div'><Button component={Link} href='https://forms.gle/mgVuYDkcYxCFFE1M7' class='story-button'>
                 <span>Submit your own story</span>

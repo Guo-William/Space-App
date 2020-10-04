@@ -788,3 +788,18 @@ section .section-white .section-container p.container-title {
 .bot-pad-2 {
   padding-bottom: 2em;
 }
+
+.source-top-text {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 140%;
+  /* or 17px */
+
+
+  /* brown */
+
+  color: #282826
+  ;
+}
