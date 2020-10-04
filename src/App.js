@@ -2,6 +2,7 @@ import { FormControl, FormGroup, FormLabel, makeStyles, Link, Button } from '@ma
 import React, { useState } from 'react';
 import CheckBox from './components/CheckBox';
 import IncomeCheckBox from './components/IncomeCheckBox';
+import Carousel from './components/Carousel';
 import './App.css';
 
 function App() {
@@ -121,10 +122,9 @@ function App() {
                   <iframe title="Percent High School Completion by Race" aria-label="Bar Chart" id="datawrapper-chart-WCXFQ" src="https://datawrapper.dwcdn.net/WCXFQ/7/" scrolling="no" frameborder="0" style={{ "border": "none", 'margin-bottom': '2em' }} width="600" height="239"></iframe>
                   <p>This sort of generalization perpetuates a false narrative by blanketing all AAPI undercircumstances that would allow them to be an academically successful community.&nbsp;
                     <a class='brown-link' target="_blank" href='https://www.researchgate.net/publication/333878732_Impacts_of_the_Model_Minority_Myth_on_Asian_American_Individuals_and_Families_Social_Justice_and_Critical_Race_Feminist_Perspectives'>In truth, the MMM has negatively impacted students’ academic performance, mental health, and the mobility of certain ethnic groups.</a></p>
-                  <p>While the AAPI community may seem to academically excel at first glance, a breakdown of individual ethnic groups shows that there is a wide range of performance.</p>
+                  <p>While the AAPI community may seem to be studious at first glance, a breakdown of individual ethnic groups shows that not all AAPI finish high school.</p>
                 </div>
                 <iframe title="% Ethnicity Completion Highschool" aria-label="Bar Chart" id="datawrapper-chart-sXu9z" src="https://datawrapper.dwcdn.net/sXu9z/1/" scrolling="no" frameborder="0" style={{ "border": "none", 'margin-bottom': '4em' }} width="600" height="742"></iframe>
-                <iframe title="% Ethnicity Completion Highschool (Asian Ethnicities)" aria-label="Bar Chart" id="datawrapper-chart-Aq5fl" src="https://datawrapper.dwcdn.net/Aq5fl/1/" scrolling="no" frameborder="0" style={{ "border": "none" }} width="600" height="622"></iframe>
               </div>
             </div>
             <div class='naked-quote'>“This sort of generalization perpetuates a false narrative by blanketing all AAPI under circumstances that would allow them to be an academically successful community.”</div>
@@ -140,7 +140,6 @@ function App() {
                   <p><a class='brown-link' target="_blank" href='https://www.washingtonpost.com/news/magazine/wp/2019/03/18/feature/does-affirmative-action-help-or-hurt-asians-who-dont-fit-the-model-minority-stereotype/'>This is in large part due to the selective migration patterns of Asian Indians and Chinese to the United States, versus the Southeast Asian populations, most of whom had arrived as refugees.</a></p>
                 </div>
                 <iframe title="Median Wage per Ethnicity" aria-label="Bar Chart" id="datawrapper-chart-WhvJZ" src="https://datawrapper.dwcdn.net/WhvJZ/2/" scrolling="no" frameborder="0" style={{ "border": "none", 'margin-bottom': '4em' }} width="600" height="742"></iframe>
-                <iframe title="Mean Wage per Ethnicity" aria-label="Bar Chart" id="datawrapper-chart-nj7KE" src="https://datawrapper.dwcdn.net/nj7KE/2/" scrolling="no" frameborder="0" style={{ "border": "none" }} width="600" height="742"></iframe>
               </div>
             </div>
           </section>
@@ -275,81 +274,22 @@ function App() {
               <div class='body-section-brown'>section seven</div>
               <div class='body-section-black'>What’s your MMM story?</div>
               <div class='body-text top-marg-1 bot-pad-2'>While these data visualisations show how this myth doesn’t apply to many different cultures, our personal day-to-day experiences living up to this standard can be difficult to quantify. As an AAPI person, what has your experience with the model minority myth been?</div>
-              <div class="carousel" aria-label="Gallery">
-                <ol class="carousel__viewport">
-                  <li id="carousel__slide1"
-                    tabindex="0"
-                    class="carousel__slide">
-                    <div class="carousel__snapper">
-                      <a href="#carousel__slide6" class="carousel__prev">Go to last slide</a>
-                      <a href="#carousel__slide2" class="carousel__next">Go to next slide</a>
-                      <div class='story'>
-                        <div class='story-text'>When I was halfway through the 11th grade, my pre-calculus teacher pulled me out into the hallway. He wanted to talk about my latest test. “You can do better than this,” he said. “I’m so surprised by grades like this from someone like you.”</div>
-                        <div class='story-text'>Someone like you? I’d never done particularly well in his class, so the implication of his words churned in my stomach. In that moment, I felt acutely the weight of the dark braid trailing down my back and the glasses slipping down my nose.</div>
-                        <div class='story-text'>I knew my performance was being evaluated not against my own earlier work but against the image of the perfect, straight-A, Asian student who lived in my teacher’s mind: the myth of the “model minority.”</div>
-                      </div>
-                      <div class='story-source'>– Sarah Soolman-Blackburn, Mixed</div>
-                    </div>
-                  </li>
-                  <li id="carousel__slide2"
-                    tabindex="1"
-                    class="carousel__slide">
-                    <div class="carousel__snapper"></div>
-                    <a href="#carousel__slide1" class="carousel__prev">Go to previous slide</a>
-                    <a href="#carousel__slide3" class="carousel__next">Go to next slide</a>
-                    <div class='story'>
-                      <div class='story-text'>The model minority myth had a negative impact on how I viewed my fellow colleagues, friends, and students as I grew up. Being part of the race called the model minority, I had a sense of superiority even though it doesn't make sense. Due to the myth, it also felt that causasian was the race to try and attain to reach and I was close to it, but can never reach it.</div>
-                    </div>
-                    <div class='story-source'>– Luther Y, Chinese</div>
-                  </li>
-                  <li id="carousel__slide3"
-                    tabindex="2"
-                    class="carousel__slide">
-                    <div class="carousel__snapper"></div>
-                    <a href="#carousel__slide2" class="carousel__prev">Go to previous slide</a>
-                    <a href="#carousel__slide4" class="carousel__next">Go to next slide</a>
-                    <div class='story'>
-                      <div class='story-text'>
-                        Seems legit in my experiences. I have definitely had times where I would say something "dumb" and people would say that had to have been my "white side" talking, not the asian part of me. It's honestly toxic for young people, asian and non-asian, and causes stereotyping that can be hurtful for a long time in life.
-                    </div>
-                    </div>
-                    <div class='story-source'>– Kristina, White/Asian</div>
-                  </li>
-                  <li id="carousel__slide4"
-                    tabindex="3"
-                    class="carousel__slide">
-                    <div class="carousel__snapper"></div>
-                    <a href="#carousel__slide3"
-                      class="carousel__prev">Go to previous slide</a>
-                    <a href="#carousel__slide5"
-                      class="carousel__next">Go to first slide</a>
-                    <div class='story'>
-                      <div class='story-text'>
-                        When I was a kid and I did well on my math exams, my friends would always say it was because I was Asian that I am able to get such high grades.
-                    </div>
-                    </div>
-                    <div class='story-source'>– Kristina, White/Asian</div>
-                  </li>
-                  <li id="carousel__slide5"
-                    tabindex="4"
-                    class="carousel__slide">
-                    <div class="carousel__snapper"></div>
-                    <a href="#carousel__slide4"
-                      class="carousel__prev">Go to previous slide</a>
-                    <a href="#carousel__slide1"
-                      class="carousel__next">Go to first slide</a>
-                    <div class='story'>
-                      <div class='story-text'>
-                        My peers and some family members were shocked about my decision to pursue a career in human services.  I received comments about how "I'm not living up to my potential" and that I should pursue a STEM career instead.  I also felt immense pressure to live up to the expectations that others have/had of me.  This led me to experience bouts of anxiety and feelings of inadequacy.  Fortunately, I formed relationships with Asian American nonprofit leaders, which helped mitigate these sentiments.
-                    </div>
-                    </div>
-                    <div class='story-source'>– Sandy Saenbounmy, Vietnamese/Thai</div>
-                  </li>
-                </ol>
-              </div>
+              <Carousel/>
               <div class='button-div'><Button component={Link} href='https://forms.gle/mgVuYDkcYxCFFE1M7' class='story-button'>
                 <span>Submit your own story</span>
               </Button></div>
+            </div>
+          </section>
+          <section id="section-8">
+            <div class='section-container'>
+              <div class='body-section-brown'>section Eight</div>
+              <div class='body-section-black'>Further Reading</div>
+              <div class='body-text top-marg-1'>Get more familiar with the implications of the Model Minority Myth and how it has affected your friends, family, and even yourself. </div>
+              <div class='body-text top-marg-1'>
+                <p><span class='source-top-text'>NPR</span><br /><a class='brown-link' target="_blank" href='https://www.npr.org/sections/codeswitch/2017/04/19/524571669/model-minority-myth-again-used-as-a-racial-wedge-between-asians-and-blacks'>'Model Minority' Myth Again Used As A Racial Wedge Between Asians And Blacks</a></p>
+                <p><span class='source-top-text'>Madeline Y. Hsu</span><br /><a class='brown-link' target="_blank" href='https://www.barnesandnoble.com/w/the-good-immigrants-madeline-y-hsu/1126361923?ean=9780691176215&pcta=n'>The Good Immigrants: How the Yellow Peril Became the Model Minority</a></p>
+                <p><span class='source-top-text'>Asian Americans in the Law, Harvard</span><br /><a class='brown-link' target="_blank" href='https://thepractice.law.harvard.edu/article/the-model-minority-myth/'>The Model Minority Myth</a></p>
+              </div>
             </div>
           </section>
         </div>

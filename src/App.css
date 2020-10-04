@@ -498,6 +498,8 @@ section .section-white .section-container p.container-title {
 
 
 .carousel {
+  box-shadow: 24px 24px 0px 0px #F7D708;
+  order: 3px solid #403E36;
   position: relative;
   padding-top: 75%;
   perspective: 100px;
