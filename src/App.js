@@ -118,7 +118,7 @@ function App() {
               <div class='section-container'>
                 <div class='pillar-title'><span class='pillar-title-highlight'>Pillar #1: AAPI are inherently smart</span></div>
                 <div class='information-container before-graphic'>
-                  <p>The notion that AAPI are inherently “good at math” is deeply rooted in American culture. From the Americaneducation system to Andrew Yang’s presidential campaign slogan to Oscar jabs, AAPI have almost always been synonymous with ‘smart’.</p>
+                  <p>The notion that AAPI are inherently “good at math” is deeply rooted in American culture. From the Americane ducation system to Andrew Yang’s presidential campaign slogan to Oscar jabs, AAPI have almost always been synonymous with ‘smart’.</p>
                   <iframe title="Percent High School Completion by Race" aria-label="Bar Chart" id="datawrapper-chart-WCXFQ" src="https://datawrapper.dwcdn.net/WCXFQ/7/" scrolling="no" frameborder="0" style={{ "border": "none", 'margin-bottom': '2em' }} width="600" height="239"></iframe>
                   <p>This sort of generalization perpetuates a false narrative by blanketing all AAPI undercircumstances that would allow them to be an academically successful community.&nbsp;
                     <a class='brown-link' target="_blank" href='https://www.researchgate.net/publication/333878732_Impacts_of_the_Model_Minority_Myth_on_Asian_American_Individuals_and_Families_Social_Justice_and_Critical_Race_Feminist_Perspectives'>In truth, the MMM has negatively impacted students’ academic performance, mental health, and the mobility of certain ethnic groups.</a></p>
@@ -173,9 +173,9 @@ function App() {
                   <iframe title="% Ethnicity in STEM Field" aria-label="Bar Chart" id="datawrapper-chart-nEwIM" src="https://datawrapper.dwcdn.net/nEwIM/1/" scrolling="no" frameborder="0" style={{ "border": "none", 'margin': '2em 0' }} width="600" height="742"></iframe>
                   <p class='container-title'>Success doesn’t mean equality</p>
                   <p>
-                    While some Asians seem to be doing well for themselves and successful in terms of socioeconomic status, they
+                    While some Asians seem to be doing well for themselves and successful in terms of socioeconomic status, they&nbsp;
                     <a class='brown-link' target="_blank" href='https://www.bbc.com/worklife/article/20180801-what-the-average-american-ceo-looks-like'>aren’t represented the same way in leadership</a>
-                    . While Asians make up 8.9% of employees in the healthcare industry, they only make up
+                    . While Asians make up 8.9% of employees in the healthcare industry, they only make up&nbsp;
                     <a class='brown-link' target="_blank" href='https://www2.deloitte.com/us/en/pages/center-for-board-effectiveness/articles/missing-pieces-report-industry-view.html'>4% of Fortune 500 board seats in the healthcare industry.</a>
                   </p>
                   <p>White men dominate not only the CEO positions, but also the executive board seats, taking up over 60% of every board across each industry.</p>
