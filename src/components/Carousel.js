@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 function Carousel() {
   const [slide, setSlide] = useState(0);
   return <div class="carousel" aria-label="Gallery">
-    <a onClick={() => setSlide(slide - 1)} class="carousel__prev">Go to last slide</a>
+    <a onClick={() => slide === 0 ? setSlide(STORIES.length - 1) : setSlide(slide - 1)} class="carousel__prev">Go to last slide</a>
     <div><div class="carousel__snapper">{createStory(STORIES[slide])}</div></div>
     <a onClick={() => slide === STORIES.length - 1 ? setSlide(0) : setSlide(slide + 1)} class="carousel__next">Go to next slide</a>
   </div>

@@ -1,28 +1,9 @@
-import { FormControl, FormGroup, FormLabel, makeStyles, Link, Button } from '@material-ui/core';
-import React, { useState } from 'react';
-import CheckBox from './components/CheckBox';
-import IncomeCheckBox from './components/IncomeCheckBox';
+import { Link, Button } from '@material-ui/core';
+import React from 'react';
 import Carousel from './components/Carousel';
 import './App.css';
 
 function App() {
-  const [race, setRace] = useState({});
-  const [age, setAge] = useState();
-  const [incomeLevel, setIncomeLevel] = useState({});
-  const handleChange = (value, specificInfo) => {
-    setRace({ value, specificInfo });
-  };
-
-  const useStyles = makeStyles((theme) => ({
-    root: {
-      display: 'flex',
-    },
-    formControl: {
-      margin: theme.spacing(3),
-    },
-  }));
-  const classes = useStyles();
-
   return (
     <React.Fragment>
       <div class='top-image'>
