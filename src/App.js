@@ -138,7 +138,6 @@ function App() {
                   <p>Secondly, not all members of the AAPI complete their Bachelor’s education— again, due to a number of factors. As can be seen below, there is almost a 60% disparity between the ethnicity with the most university graduations (Taiwanese) and the ethnicity with the least (Bhutanese). This gap widens as the degree becomes more advanced. </p>
                 </div>
                 <iframe title="% Ethnicity BS Degree +" aria-label="Bar Chart" id="datawrapper-chart-LUKms" src="https://datawrapper.dwcdn.net/LUKms/1/" scrolling="no" frameborder="0" style={{ "border": "none", 'margin': '4em 0' }} width="600" height="742"></iframe>
-                <iframe title="% Ethnicity BS Degree + (Asian Ethnicities)" aria-label="Bar Chart" id="datawrapper-chart-gOO4q" src="https://datawrapper.dwcdn.net/gOO4q/1/" scrolling="no" frameborder="0" style={{ "border": "none" }} width="600" height="622"></iframe>
               </div>
             </div>
             <div class='naked-quote'>“The MMM is so pervasive in our education system that teachers will often assume that their AAPI students don’t need help.”</div>
